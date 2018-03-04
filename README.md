@@ -5,7 +5,7 @@ IF1007 Homeworks (tcs5)
 
 | # | Deadline | Activity                             | Status              | Resources   |
 |:-:|:--------:|--------------------------------------|:-------------------:|:-----------:|
-| 01 | 05-Mar  | Basic setup for the course.          | :large_blue_circle: | [hw1](hw1)  |
+| 01 | 05-Mar  | Basic setup for the course.          | :white_check_mark:  | [hw1][hw1]  |
 | 02 |  |           | :red_circle:        | []()  |
 | 03 |  |           | :red_circle:        | []()  |
 
@@ -19,4 +19,4 @@ Captions
 :white_check_mark: **done**
 
 
-[hw1]: https://github.com/tacsio/IF1007-HW/raw/master/hw1/tcs5-HW1.md
+[hw1]: https://github.com/tacsio/IF1007-HW/blob/master/hw1/tcs5-HW1.md

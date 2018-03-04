@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Windows version
+echo "Starting browser"
+sleep 2
+start chrome "http://bf.jamesliu.info/"
