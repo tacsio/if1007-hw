@@ -27,6 +27,8 @@ nbdist/
 ### Build ###
 *.class
 /out
+*/out/
 /bin
+*/bin
 
 
