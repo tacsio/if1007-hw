@@ -1,4 +1,4 @@
-package cin.if1007.hw3.service.authors;
+package cin.if1007.hw3.services.authors;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

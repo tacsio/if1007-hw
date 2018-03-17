@@ -3,13 +3,13 @@ Homework 3 (tcs5)
 
 **Status**
 
-:large_blue_circle: Spring Boot Actuator. 
+:white_check_mark: Spring Boot Actuator.
 
-:large_blue_circle: Documenting microservices. 
+:white_check_mark: Documenting microservices.
 
 
  ## Spring Boot Actuator.
- 
+
  Access web endpoints
 ```bash
 ./gradlew bootRun
@@ -18,7 +18,15 @@ curl http://localhost:9000/actuator/mappings
 
 ## Documenting microservices.
 
-:red_circle: TODO:
+Access api docs
+```bash
+curl http://localhost:9000/v2/api-docs
+```
+
+Access swagger ui
+
+[http://localhost:9000/swagger-ui.html][swagger-ui]
+
 
 Captions
 =========
@@ -27,3 +35,5 @@ Captions
 :large_blue_circle: **doing**
 
 :white_check_mark: **done**
+
+[swagger-ui]: http://localhost:9000/swagger-ui.html
