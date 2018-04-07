@@ -18,9 +18,9 @@ Consumer driven contracts (CDC) não é um conceito novo, mas com o advento de m
 Essas necessidades são descritas através de contratos entre cliente e provedor, que guiam o desenvolvimento do serviço (API) a partir do ponto de vista dos clientes.
 
 Os principais conceitos de CDC são: 
-    - Consumers: A parte que irá 'consumir' serviço (cliente da API)
-    - Provider: A parte provedora do serviço (quem deve garantir os diversos contratos)
-    - Contrato: O 'pacto' entre _Consumers_ e _Providers_. Descreve um conjunto de restrições que descreve como devem se comportar as interações entre as partes.
+- Consumers: A parte que irá 'consumir' serviço (cliente da API)
+- Provider: A parte provedora do serviço (quem deve garantir os diversos contratos)
+- Contrato: O 'pacto' entre _Consumers_ e _Providers_. Descreve um conjunto de restrições que descreve como devem se comportar as interações entre as partes.
 
 
 __2. How does it fit into the microservices approach?__
@@ -37,10 +37,10 @@ A lei de Postel praticamente descreve o cenário. No CDC o provedor do serviço 
 
 
 __4. What are the main solutions (patterns, architectural styles, tools, etc.) to implement:__
-    - Message-oriented services: MoMs (Message-oriented middleware), Reactive programming), Kafka, RabbitMQ & Streamming, etc.
-    - HTTP and REST endpoints: Java::Spring boot, Rails::Roar, Python::Restless, Elixir::Phoenix, Json-Server, Postman
-    - Optimized communication protocols: AMPQ (Advanced Message Queuing Protocol), Apache Thrift, Finagle, etc.
-    - API documentations: RestDocs, CDC (Consumer Driven Contracts), Swagger, API Studio,  
+- __Message-oriented services:__ MoMs (Message-oriented middleware), Reactive programming), Kafka, RabbitMQ & Streamming, etc.
+- __HTTP and REST endpoints:__ Java::Spring boot, Rails::Roar, Python::Restless, Elixir::Phoenix, Json-Server, Postman
+- __Optimized communication protocols:__ AMPQ (Advanced Message Queuing Protocol), Apache Thrift, Finagle, etc.
+- __API documentations:__ RestDocs, CDC (Consumer Driven Contracts), Swagger, API Studio,  
 
 
 ## Use of ESB and iPaaS with microservices
