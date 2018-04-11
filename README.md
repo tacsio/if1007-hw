@@ -9,7 +9,7 @@ IF1007 Homeworks (tcs5)
 | 02 | 07-Mar  | Background of the course.                  | :red_circle:        | [hw2](hw2)  |
 | 03 | 14-Mar  | Spring Boot 101                            | :white_check_mark:  | [hw3](hw3)  |
 | 04 | 04-Abr  | Understand course's backgroud.             | :white_check_mark:  | [hw4](hw4)  |
-| 05 | 09-Abr  | understand the some tools of Spring Cloud. | :large_blue_circle: | [hw6](hw6)  |
+| 05 | 09-Abr  | understand the some tools of Spring Cloud. | :white_check_mark: | [hw6](hw6)  |
 
 
 Captions

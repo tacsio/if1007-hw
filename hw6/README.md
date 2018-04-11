@@ -5,7 +5,7 @@ Homework 6 (tcs5)
 
 :white_check_mark: High availability for Eureka
 
-:large_blue_circle: High availability of Zuul
+:white_check_mark: High availability of Zuul
 
  ## High availability for Eureka
  
@@ -20,9 +20,12 @@ Um cluster com múltiplas instâncias por trás de um DNS ou load balancer local
 ## High availability of Zuul
 
 __1. How to use Zuul proxy as the API gateway?__
+Teoricamente deveríamos configurar o proxy Zuul para consultar a lista de _Microservices (registro + referência)_, configurar uma arquitetura de _Chains & Interceptors_ para adicionar lógica à requisição ao proxy e no final da cadeia repassar ao _Microservice_ próprio a requisição, modificada ou não pela cadeia de interceptadores.
 
 __2.How to setup High availability capability of Zuul?__
+Como o Zuul é uma aplicação stateless, para configurar alta disponibilidade é necessário criar 'instâncias' da aplicação para redundância da aplicação. Porém, como se trata de um load balancer, no contexto de aplicações Spring Boot utilizando as capacidades do Spring Cloud, temos de diferenciar 2 cenários. O cenário em que a aplicação 'cliente' do Zuul é uma aplicação registrada no Eureka, e outro em que não existe essa 'facilidade'.
 
+O Zuul, assim como outros diversos projetos da Netflix OSS, é uma aplicação Spring Boot portando podemos registrá-la como uma instância Eureka e o próprio Eureka irá resolver a alta disponibilidade. No caso em que o sistema não dispõe da utilização do Eureka, é necessário configurar um DNS ou LoadBalancer tradicional, contendo o registro das instâncias do Zuul.
 
 ## References
 
