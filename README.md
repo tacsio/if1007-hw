@@ -10,7 +10,7 @@ IF1007 Homeworks (tcs5)
 | 03 | 14-Mar  | Spring Boot 101                            | :white_check_mark:  | [hw3](hw3)  |
 | 04 | 04-Abr  | Understand course's backgroud.             | :white_check_mark:  | [hw4](hw4)  |
 | 05 | 09-Abr  | Understand the some tools of Spring Cloud. | :white_check_mark:  | [hw6](hw6)  |
-| 06 | 22-Abr  | Logging and Monitoring Microservices.      | :red_circle:        | [hw8](hw8)  |
+| 06 | 22-Abr  | Logging and Monitoring Microservices.      | :white_check_mark:  | [hw8](hw8)  |
 
 
 Captions
